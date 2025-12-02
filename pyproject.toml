@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sl"
+version = "0.1.0"
+description = ""
+authors = ["OferT-FTS <ofer@il-fts.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+streamlit = "^1.51.0"
+matplotlib = "^3.10.7"
+seaborn = "^0.13.2"
+tensorflow = "^2.20.0"
+scikit-learn = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

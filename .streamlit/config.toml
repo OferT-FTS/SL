@@ -1,0 +1,20 @@
+#[theme]
+#base="light"
+#backgroundColor="white"
+#secondaryBackgroundColor="blue"
+#codeBackgroundColor="green"
+#
+#[theme.sidebar]
+#backgroundColor="white"
+#secondaryBackgroundColor="red"
+
+[theme]
+base ="dark"
+#backgroundColor = "white"
+#secondaryBackgroundColor = "#2D2D2D"
+#textColor = "black"
+#codeBackgroundColor = "#0E1117"
+
+#[theme.sidebar]
+#backgroundColor = "gray"
+#secondaryBackgroundColor = "#31333F"
