@@ -6,14 +6,16 @@ logo2 = Image.open("python_logo.jpeg")
 logo3 = Image.open("github.jpeg")
 
 # Set specific width for each logo (adjust these values as needed)
-logo1_width = 200   # Adjust this for first logo
-logo2_width = 200   # Adjust this for second logo
-logo3_width = 200   # Adjust this for third logo
+w = 1000
+logo1_width = w   # Adjust this for first logo
+logo2_width = w   # Adjust this for second logo
+logo3_width = w   # Adjust this for third logo
 
 # Calculate heights to maintain aspect ratio
-logo1_height = 200
-logo2_height = 200
-logo3_height = 200
+h = 1000
+logo1_height = h
+logo2_height = h
+logo3_height = h
 
 # Resize logos with specific widths
 logo1 = logo1.resize((logo1_width, logo1_height))
@@ -24,7 +26,7 @@ logo3 = logo3.resize((logo3_width, logo3_height))
 max_height = max(logo1_height, logo2_height, logo3_height)
 
 # Spacing between logos
-spacing = 10
+spacing = 50
 
 # Calculate total width
 total_width = logo1_width + logo2_width + logo3_width + (2 * spacing)

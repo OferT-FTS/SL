@@ -1,4 +1,18 @@
 import streamlit as st
+st.set_page_config(
+    page_title="Final Data Science Project",
+    page_icon=":chart_with_upwards_trend:",
+    layout="wide"
+)
 
-st.markdown("# Page 7")
-st.sidebar.markdown("# Page 7")
+# Header with emoji
+st.markdown("""
+    <h1 style='text-align: center; color: gold; font-weight: 350'>
+        Conclusions
+    </h1>
+""", unsafe_allow_html=True)
+
+st.sidebar.markdown("## Conclusions")
+
+# Spacing
+st.markdown("<br>", unsafe_allow_html=True)
