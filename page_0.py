@@ -1,5 +1,8 @@
 import streamlit as st
 
+# Spacing
+st.markdown("<br>", unsafe_allow_html=True)
+
 st.set_page_config(
     page_title="Final Data Science Project",
     page_icon=":chart_with_upwards_trend:",
@@ -17,7 +20,12 @@ st.sidebar.markdown("## ML DP Presentation")
 
 # Spacing
 st.markdown("<br>", unsafe_allow_html=True)
-
+# Spacing
+st.markdown("<br>", unsafe_allow_html=True)
+# Spacing
+st.markdown("<br>", unsafe_allow_html=True)
+# Spacing
+st.markdown("<br>", unsafe_allow_html=True)
 # Two symmetrical columns
 col1, col2 = st.columns([1, 1])
 
